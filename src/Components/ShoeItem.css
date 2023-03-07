@@ -1,0 +1,141 @@
+.card{
+    border: 1px solid black;
+    height: 50vh;
+    display: flex;
+    width: 35vh;
+    flex-wrap: wrap;
+    background-color: rgb(45, 168, 216,0.5);
+    box-sizing: border-box;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.card:hover{
+    background-color: rgb(45, 168, 216);
+    font-size: 102.5%;
+    animation: example2 250ms;
+}
+
+@keyframes example2{
+    from {background-color: rgb(45, 168, 216,0.5);font-size: 100%;}
+  to {background-color: rgb(45, 168, 216);font-size: 102.5%;}
+  }
+
+.shoeImage{
+    height: 25vh;
+    width: 34.75vh;
+}
+
+.shoeTitle{
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 0%;
+    margin-left: 2.5vw;
+    color:black;
+}
+
+.shoeDescription{
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap; 
+    width: 30vh; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:rgba(0, 0, 0, 0.632);
+}
+
+.oldShoePrice{
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+    display: inline-block;
+    text-decoration:line-through;
+    color:rgba(0, 0, 0, 0.632);
+}
+
+.shoePrice{
+    text-align: left;
+    margin-left: 0.5vw;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+    display: inline-block;
+    color:black;
+}
+
+.percentage{
+    text-align: left;
+    margin-left: 0.5vw;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+    display: inline-block;
+    color: rgb(67, 164, 67);
+}
+.OldAndNewprice{
+    text-align: left;
+    margin-left: 2.5vw;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+    display: inline-block;
+}
+
+
+.shoeId{
+    text-align: left;
+    margin-left: 2.5vw;
+    margin-bottom: 0px;    
+    margin-top: 0px;    
+    display: inline-block;
+}
+
+.FreeDelivery{
+    text-align: left;
+    margin-left: 2.5vw;
+    margin-bottom: 0px;    
+    margin-top: 0px;    
+    display: inline-block;
+    color: black;
+}
+
+.rating{
+    text-align: left;
+    margin-left: 2.5vw;
+    margin-bottom: 0px;    
+    margin-top: 0px;    
+    display: inline-block;
+    color: white;
+    background-color: rgb(44, 148, 44);
+    width: 6vh;
+    text-align: center;
+    border-radius: 15%;
+    padding: 0.125vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .shoeImage{
+        width: 50vw;
+        height: 30vh;
+    }
+
+    .shoeDescription{
+        display: inline-block;
+        white-space: nowrap; 
+        width: 45vw; 
+        overflow: hidden;
+        text-overflow: ellipsis;     
+    }
+    .shoePrice{
+        margin-left: 2.5vw;
+    }
+    .percentage{
+        margin-left: 2.5vw;
+    }
+  }

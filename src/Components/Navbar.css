@@ -1,0 +1,25 @@
+nav{
+    background-color: #2D2B2DFF;
+    height: 7.5vh;
+    width: 100%;
+    padding: 1vw;
+    box-sizing: border-box;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.title{
+    color: #2DA8D8FF;
+    display: inline-block;
+    margin: 1px;
+    margin-left: 2.5vw;
+}
+
+.logo{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    display: inline-block;
+}

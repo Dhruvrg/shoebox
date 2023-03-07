@@ -1,0 +1,21 @@
+.text{
+    text-align: center;
+    margin: "35px 0px";
+    margin-top: 10vh;
+}
+
+.shoeBox{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1vw;
+    row-gap: 2vh;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+.shoeBox{
+    gap: 0vh;
+    display: flex;
+}
+}

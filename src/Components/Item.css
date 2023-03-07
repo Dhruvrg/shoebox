@@ -1,0 +1,217 @@
+.ItemCard{
+    display: flex;
+    flex-direction: row;
+    height: 200vh;
+    margin-top: 2.5vh;
+}
+
+.Images{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+
+
+.ItemShoeImage{
+    width: 50vw;
+    height: 60vw;
+    left: 0px;
+    margin-top: 7.5vh;
+ }
+
+ .ShoeImage{
+    height:10vh ;
+    width: 9vw ;
+    border-radius: 15%;
+    border: 1px solid black;
+ }
+
+ .OptionImage{
+    height:10vh ;
+    width: 9vw ;
+    border-radius: 15%;
+ }
+
+.ShoeImagesOption{
+    height: 10vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    margin-top: 2.5vh;
+}
+
+.ItemContent{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    height: 92.5vh;
+    background-color: rgb(226, 223, 223);
+    margin-top: 7.5vh;
+}
+
+.ItemShoeTitle{
+    text-align: left;
+    display: inline-block;
+    margin-left: 2.5vw;
+    color:black;
+}
+
+.ItemShoeDescription{
+    width: auto; 
+    text-align: left;
+    display: inline-block;
+    margin-left: 2.5vw;
+    color:black;
+}
+
+
+.ItemOldAndNewprice{
+    text-align: left;
+    margin-left: 2.5vw;
+    display: inline-block;
+}
+
+.ItemOldShoePrice{
+    text-align: left;
+    margin-top: 0px;
+    display: inline-block;
+    text-decoration:line-through;
+    color:rgba(0, 0, 0, 0.632);
+}
+
+.ItemShoePrice{
+    text-align: left;
+    margin-left: 0.5vw;
+    display: inline-block;
+    color:black;
+}
+
+.ItemPercentage{
+    text-align: left;
+    margin-left: 0.5vw;
+    display: inline-block;
+    color: rgb(67, 164, 67);
+}
+
+.ItemFreeDelivery{
+    text-align: left;
+    margin-left: 2.5vw;  
+    display: inline-block;
+    color: black;
+}
+
+.ItemRating{
+    align-items: left;
+    margin-left: 2.5vw;
+    display: inline-block;
+    width: 15vh;
+    text-align: center;
+}
+
+.pay{
+    margin-left: 2.5vw;
+    background-color: #2D2B2DFF ;
+    border: 2px solid #2D2B2DFF;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    border-radius: 10px;
+    width: 10vw;
+}
+
+.pay:hover{
+    background-color: #2D2B2DFF;
+    color: white;
+    animation: example 1s;
+}
+
+.moreShoes{
+    display: flex;
+    position: absolute;
+    top: 152.5vh;
+    width: 100vw;
+    height: 50vh;
+    flex-direction: row;
+    overflow-x:scroll;
+}
+
+@keyframes example{
+    from {background-color: white;color:black;}
+  to {background-color: black;color:white;}
+  }
+
+
+.ItemShoeId{
+    text-align: left;
+    margin-left: 2.5vw;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .ItemShoeImage{
+        position: absolute;
+        top: 7.5vh;
+        width: 100vw;
+        margin: 0px;
+        height: 50vh;
+    }
+    .ItemCard{
+        display: flex;
+        flex-direction:column;
+        height: 177.5vh;
+    }
+    .Images{
+        height: 25vh;
+    }
+
+    .ItemContent{
+        position: absolute;
+        top: 60vh;
+        width: 100vw;
+        height: 70vh;
+        background-color: rgb(45, 168, 216,0.5);
+    }
+    
+    .pay{
+        width: 50vw;
+    }
+
+    .ShoeImagesOption{
+        display: flex;
+        position: absolute;
+        top: 55vh;
+        width: 100vw;
+        left: 0px;
+        background-color: rgb(45, 168, 216,0.5);
+        padding-top: 0.5vh;
+        padding-left: 1.5vw;
+        padding-right: 1.5vw;
+        box-sizing: border-box;
+    }
+    
+    .ShoeImage{
+        height:9vh ;
+        width: 18vw ;
+        border-radius: 15%;
+     }
+
+    .OptionImage{
+        height:9vh ;
+        width: 18vw ;
+        border-radius: 15%;
+     }
+     .moreShoes{
+        display: flex;
+        position: absolute;
+        top: 130vh;
+     }
+}
