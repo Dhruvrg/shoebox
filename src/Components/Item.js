@@ -61,7 +61,7 @@ function Item() {
           <h1 className="ItemShoeTitle">{state.title}</h1>
           <p className="ItemShoeDescription">{state.description}</p>
           <span className="ItemRating">
-            {state.rating === 4 ? "⭐" : "⭐⭐"}⭐⭐⭐
+           // {state.rating === 4 ? "⭐" : "⭐⭐"}⭐⭐⭐
           </span>
           <div className="ItemOldAndNewprice">
             <h2 className="ItemOldShoePrice">{state.oldPrice}</h2>
