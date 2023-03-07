@@ -28,7 +28,7 @@ function ShoeItem(props) {
             </h4>
           </div>
           <p className="FreeDelivery">Free delivery</p>
-         // <span className="rating">{shoe.rating}⭐</span>
+         <span className="rating">{shoe.rating}⭐</span>
         </div>
       </Link>
     </>
